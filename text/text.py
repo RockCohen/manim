@@ -1,0 +1,9 @@
+
+def construct(self):
+    # play the first animations...
+    # you don't need a section in the very beginning as it gets created automatically
+    self.next_section()
+    # play more animations...
+    self.next_section("this is an optional name that doesn't have to be unique")
+    # play even more animations...
+    self.next_section("this is a section without any animations, it will be removed")
